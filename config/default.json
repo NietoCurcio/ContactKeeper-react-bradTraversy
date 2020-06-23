@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://felipe123:felipe123@contactkeeper-gs0sm.mongodb.net/contactKeeper?retryWrites=true&w=majority",
+  "jwtSecret": "supersecretkeydofelipao"
+}
