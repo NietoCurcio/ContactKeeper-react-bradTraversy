@@ -12,11 +12,11 @@ connectDB();
 // Init middleware
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) => {
-  res.json({ msg: 'Salve felipao' });
-  // json can be a js object
-  //   res.sendFile
-});
+// app.get('/', (req, res) => {
+//   res.json({ msg: 'Salve felipao' });
+//   // json can be a js object
+//   //   res.sendFile
+// });
 
 // Define our routes
 app.use('/api/users', require('./routes/users'));
